@@ -6,6 +6,8 @@
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
   </head>
   <body>
 
@@ -14,7 +16,7 @@
             <div class="container">
                 <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
                   <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                    <img src="img/pngegg.png" alt="" width="50px">
+                    <img src="img/logo.png" alt="" width="50px">
                   </a>
             
                   <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -26,8 +28,11 @@
                   </ul>
             
                   <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
-                    <button type="button" class="btn btn-primary">Sign-up</button>
+                    <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                      <li><a href="#" class="nav-link px-2 link-dark"><i class="bi bi-heart-fill"></i></a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark"><i class="bi bi-bag-fill"></i></a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark"><i class="bi bi-person-fill"></i></a></li>
+                    </ul>
                   </div>
                 </header>
               </div>
@@ -109,591 +114,308 @@
               </div>
 
 
-              <section class="container pt-lg-3 mb-4 mb-sm-5">
-                <div class="row">
-                  <!-- Banner with controls-->
-                  <div class="col-md-5">
-                    <div class="d-flex flex-column h-100 overflow-hidden rounded-3" style="background-color: #f6f8fb;">
-                      <div class="d-flex justify-content-between px-grid-gutter py-grid-gutter">
-                        <div>
-                          <h3 class="mb-1">For Women</h3><a class="fs-md" href="shop-grid-ls.html">Shop for women<i class="ci-arrow-right fs-xs align-middle ms-1"></i></a>
-                        </div>
-                        <div class="tns-carousel-controls" id="for-women" aria-label="Carousel Navigation" tabindex="0">
-                          <button type="button" aria-controls="tns3" tabindex="-1" data-controls="prev"><i class="ci-arrow-left"></i></button>
-                          <button type="button" aria-controls="tns3" tabindex="-1" data-controls="next"><i class="ci-arrow-right"></i></button>
-                        </div>
-                      </div><a class="d-none d-md-block mt-auto" href="shop-grid-ls.html"><img class="d-block w-100" src="img/home/categories/cat-lg02.jpg" alt="For Women"></a>
-                    </div>
-                  </div>
-                  <!-- Product grid (carousel)-->
-                  <div class="col-md-7 pt-4 pt-md-0">
-                    <div class="tns-carousel">
-                      <div class="tns-outer" id="tns3-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">3</span>  of 2</div><div id="tns3-mw" class="tns-ovh"><div class="tns-inner" id="tns3-iw"><div class="tns-carousel-inner  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" data-carousel-options="{&quot;nav&quot;: false, &quot;controlsContainer&quot;: &quot;#for-women&quot;}" id="tns3" style="transition-duration: 0s; transform: translate3d(-33.3333%, 0px, 0px);"><div class="tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                          <div class="row mx-n2">
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/09.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Cosmetics</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Metallic Lipstick (Crimson)</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$12.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/26.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Textile Platform Sneakers</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$59.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static"><span class="badge badge-danger badge-shadow">Sale</span>
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/27.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Accessories</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Polarized Sunglasses</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$17.<small>99</small></span>
-                                      <del class="fs-sm text-muted">28.<small>99</small></del>
-                                    </div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/28.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather Platform Sandals</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$79.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/29.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Short Chino Shorts</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/30.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">T-shirts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">T-shirt with Motif</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$13.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div><div class="tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                          <div class="row mx-n2">
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Colorblock Sneakers</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$154.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/02.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Blouse</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Cotton Lace Blouse</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$37.<small>50</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/03.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mom High Waist Shorts</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$39.<small>50</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/04.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sportswear</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Sports Jacket</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$68.<small>40</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/31.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather Platform Sandals</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$67.<small>95</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/07.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">T-shirts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Two-Piece Bikini</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$18.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Carousel item-->
-                        <div class="tns-item tns-slide-active" id="tns3-item0">
-                          <div class="row mx-n2">
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/09.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Cosmetics</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Metallic Lipstick (Crimson)</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$12.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/26.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Textile Platform Sneakers</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$59.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static"><span class="badge badge-danger badge-shadow">Sale</span>
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/27.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Accessories</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Polarized Sunglasses</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$17.<small>99</small></span>
-                                      <del class="fs-sm text-muted">28.<small>99</small></del>
-                                    </div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/28.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather Platform Sandals</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$79.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/29.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Short Chino Shorts</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/30.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">T-shirts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">T-shirt with Motif</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$13.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Carousel item-->
-                        <div class="tns-item" id="tns3-item1" aria-hidden="true" tabindex="-1">
-                          <div class="row mx-n2">
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Colorblock Sneakers</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$154.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/02.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Blouse</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Cotton Lace Blouse</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$37.<small>50</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/03.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mom High Waist Shorts</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$39.<small>50</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/04.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sportswear</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Sports Jacket</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$68.<small>40</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/31.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather Platform Sandals</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$67.<small>95</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/07.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">T-shirts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Two-Piece Bikini</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$18.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      <div class="tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                          <div class="row mx-n2">
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/09.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Cosmetics</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Metallic Lipstick (Crimson)</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$12.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/26.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Textile Platform Sneakers</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$59.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static"><span class="badge badge-danger badge-shadow">Sale</span>
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/27.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Accessories</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Polarized Sunglasses</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$17.<small>99</small></span>
-                                      <del class="fs-sm text-muted">28.<small>99</small></del>
-                                    </div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/28.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather Platform Sandals</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$79.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/29.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Short Chino Shorts</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$24.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/30.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">T-shirts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">T-shirt with Motif</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$13.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div><div class="tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                          <div class="row mx-n2">
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shoes</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Colorblock Sneakers</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$154.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/02.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Blouse</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Cotton Lace Blouse</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$37.<small>50</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/03.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Mom High Waist Shorts</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$39.<small>50</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/04.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Sportswear</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Sports Jacket</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$68.<small>40</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/31.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">Shorts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Leather Platform Sandals</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$67.<small>95</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-half active"></i><i class="star-rating-icon ci-star"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block">
-                              <div class="card product-card card-static">
-                                <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Add to wishlist" data-bs-original-title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/07.jpg" alt="Product"></a>
-                                <div class="card-body py-2"><a class="product-meta d-block fs-xs pb-1" href="#">T-shirts</a>
-                                  <h3 class="product-title fs-sm"><a href="shop-single-v1.html">Two-Piece Bikini</a></h3>
-                                  <div class="d-flex justify-content-between">
-                                    <div class="product-price"><span class="text-accent">$18.<small>99</small></span></div>
-                                    <div class="star-rating"><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star-filled active"></i><i class="star-rating-icon ci-star"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div></div></div></div></div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+              
 
         </section>
 
+
+        <section class="section-products">
+          <div class="container">
+              <div class="row justify-content-center text-center">
+                  <div class="col-md-8 col-lg-6">
+                      <div class="header">
+                          <h3>Featured Product</h3>
+                          <h2>Popular Products</h2>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-1" class="single-product">
+                          <div class="part-1">
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-old-price">$79.99</h4>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-2" class="single-product">
+                          <div class="part-1">
+                              <span class="discount">15% off</span>
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-3" class="single-product">
+                          <div class="part-1">
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-old-price">$79.99</h4>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-4" class="single-product">
+                          <div class="part-1">
+                              <span class="new">new</span>
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-1" class="single-product">
+                          <div class="part-1">
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-old-price">$79.99</h4>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-2" class="single-product">
+                          <div class="part-1">
+                              <span class="discount">15% off</span>
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-3" class="single-product">
+                          <div class="part-1">
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-old-price">$79.99</h4>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Single Product -->
+                  <div class="col-md-6 col-lg-4 col-xl-3">
+                      <div id="product-4" class="single-product">
+                          <div class="part-1">
+                              <span class="new">new</span>
+                              <ul>
+                                  <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                  <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="part-2">
+                              <h3 class="product-title">Here Product Title</h3>
+                              <h4 class="product-price">$49.99</h4>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+      
+
+
+        <section class="brand">
+
+          <section class="container py-lg-4 mb-4">
+            <h2 class="h3 text-center pb-4">Shop by brand</h2>
+            <div class="row">
+              <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/1.png" style="width: 150px;" alt="Brand"></a></div>
+              <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/2.png" style="width: 150px;" alt="Brand"></a></div>
+              <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/3.png" style="width: 150px;" alt="Brand"></a></div>
+              <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/4.png" style="width: 150px;" alt="Brand"></a></div>
+              <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/5.png" style="width: 150px;" alt="Brand"></a></div>
+              <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/6.png" style="width: 150px;" alt="Brand"></a></div>
+            </div>
+          </section>
+
+        </section>
+
+
         <section class="footer">
 
+          <footer class="footer bg-dark pt-5">
             <div class="container">
-                <footer class="py-5">
-                  <div class="row">
-                    <div class="col-6 col-md-2 mb-3">
-                      <h5>Section</h5>
-                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                      </ul>
-                    </div>
-              
-                    <div class="col-6 col-md-2 mb-3">
-                      <h5>Section</h5>
-                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                      </ul>
-                    </div>
-              
-                    <div class="col-6 col-md-2 mb-3">
-                      <h5>Section</h5>
-                      <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                      </ul>
-                    </div>
-              
-                    <div class="col-md-5 offset-md-1 mb-3">
-                      <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                          <label for="newsletter1" class="visually-hidden">Email address</label>
-                          <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                          <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-              
-                  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p>© 2022 Company, Inc. All rights reserved.</p>
-                    <ul class="list-unstyled d-flex">
-                      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                      <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+              <div class="row pb-2">
+                <div class="col-md-4 col-sm-6">
+                  <div class="widget widget-links widget-light pb-2 mb-4">
+                    <h3 class="widget-title text-light">Account &amp; shipping info</h3>
+                    <ul class="widget-list">
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Your account</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Shipping rates &amp; policies</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Refunds &amp; replacements</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Order tracking</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Delivery info</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Taxes &amp; fees</a></li>
                     </ul>
                   </div>
-                </footer>
+                  <div class="widget widget-links widget-light pb-2 mb-4">
+                    <h3 class="widget-title text-light">About us</h3>
+                    <ul class="widget-list">
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">About company</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Our team</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">Careers</a></li>
+                      <li class="widget-list-item"><a class="widget-list-link" href="#">News</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="widget pb-2 mb-4">
+                    <h3 class="widget-title text-light pb-1">Stay informed</h3>
+                    <form class="subscription-form validate" action="https://studio.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;amp;id=29ca296126" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                      <div class="input-group flex-nowrap"><i class="ci-mail position-absolute top-50 translate-middle-y text-muted fs-base ms-3"></i>
+                        <input class="form-control rounded-start" type="email" name="EMAIL" placeholder="Your email" required="">
+                        <button class="btn btn-primary" type="submit" name="subscribe">Subscribe*</button>
+                      </div>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input class="subscription-form-antispam" type="text" name="b_c7103e2c981361a6639545bd5_29ca296126" tabindex="-1">
+                      </div>
+                      <div class="form-text text-light opacity-50">*Subscribe to our newsletter to receive early discount offers, updates and new products info.</div>
+                      <div class="subscription-status"></div>
+                    </form>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="pt-5 bg-darker">
+              <div class="container">
+                <div class="row pb-3">
+                  <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="d-flex"><i class="ci-rocket text-primary" style="font-size: 2.25rem;"></i>
+                      <div class="ps-3">
+                        <h6 class="fs-base text-light mb-1">Fast and free delivery</h6>
+                        <p class="mb-0 fs-ms text-light opacity-50">Free delivery for all orders over $200</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="d-flex"><i class="ci-currency-exchange text-primary" style="font-size: 2.25rem;"></i>
+                      <div class="ps-3">
+                        <h6 class="fs-base text-light mb-1">Money back guarantee</h6>
+                        <p class="mb-0 fs-ms text-light opacity-50">We return money within 30 days</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="d-flex"><i class="ci-support text-primary" style="font-size: 2.25rem;"></i>
+                      <div class="ps-3">
+                        <h6 class="fs-base text-light mb-1">24/7 customer support</h6>
+                        <p class="mb-0 fs-ms text-light opacity-50">Friendly 24/7 customer support</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="d-flex"><i class="ci-card text-primary" style="font-size: 2.25rem;"></i>
+                      <div class="ps-3">
+                        <h6 class="fs-base text-light mb-1">Secure online payment</h6>
+                        <p class="mb-0 fs-ms text-light opacity-50">We possess SSL / Secure сertificate</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr class="hr-light mb-5">
+                <div class="row pb-2">
+                  <div class="col-md-6 text-center text-md-start mb-4">
+                    <div class="text-nowrap mb-4"><a class="d-inline-block align-middle mt-n1 me-3" href="#"><img class="d-block" src="img/logo.png" width="80" alt="Tirigo"></a>
+                    </div>
+                    <div class="widget widget-links widget-light">
+                      <ul class="widget-list d-flex flex-wrap justify-content-center justify-content-md-start">
+                        <li class="widget-list-item me-4"><a class="widget-list-link" href="#">Outlets</a></li>
+                        <li class="widget-list-item me-4"><a class="widget-list-link" href="#">Affiliates</a></li>
+                        <li class="widget-list-item me-4"><a class="widget-list-link" href="#">Support</a></li>
+                        <li class="widget-list-item me-4"><a class="widget-list-link" href="#">Privacy</a></li>
+                        <li class="widget-list-item me-4"><a class="widget-list-link" href="#">Terms of use</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6 text-center text-md-end mb-4">
+                    <div class="mb-3">
+                      <a class="btn-social bs-light" href="#">
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                      <a class="btn-social bs-light" href="#">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                    </div>
+
+                      <img class="d-inline-block" src="img/payment.png" width="187" alt="Payment methods">
+
+                  </div>
+                </div>
+                <div class="pb-4 fs-xs text-light opacity-50 text-center text-md-start">© All rights reserved. Made by <a class="text-light" href="#" target="_blank" rel="noopener">Vanda</a></div>
+              </div>
+            </div>
+          </footer>
+          
 
         </section>
 
